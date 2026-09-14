@@ -1,0 +1,25 @@
+<configs>
+  <edge-config xmlns:akamai="uri:akamai.com/metadata/akamai/5.0" xmlns:reporting="uri:akamai.com/metadata/reporting/5.0" xmlns:network="uri:akamai.com/metadata/network/5.0" xmlns:auth="uri:akamai.com/metadata/auth/5.0" xmlns:forward="uri:akamai.com/metadata/forward/5.0" xmlns:assign="uri:akamai.com/metadata/assign/5.0" version="5.0" xmlns:security="uri:akamai.com/metadata/security/5.0" xmlns:edgeservices="uri:akamai.com/metadata/edgeservices/5.0" xmlns:match="uri:akamai.com/metadata/match/5.0" xmlns:edgecomputing="uri:akamai.com/metadata/edgecomputing/5.0" xmlns:cache="uri:akamai.com/metadata/cache/5.0" xmlns:config="uri:akamai.com/metadata/config/5.0">
+    <security:essl.slot-assignment>
+        <fileid>21</fileid>
+        <version>3554302164</version>
+        <number>21</number>
+        <cn>core_rsa2k_L1_client_12345</cn>
+        <security-level>L1</security-level>
+        <internal-slot>
+            <usage>client</usage>
+        </internal-slot>
+        <internal>identity</internal>
+        <status>on</status>
+        <strict-cert-check>off</strict-cert-check>
+        <host-cn-match>on</host-cn-match>
+        <kmi>
+            <!-- MAPS to /a/work/keyagent/mdt/kmi.distribute.<collection>/<domain>.<collection>.<definition>-->
+            <domain>akamai</domain>
+            <collection>core_L1_g2g_cert</collection>
+            <definition>core_rsa2k_L1_client_12345</definition>
+            <remote-pkey>off</remote-pkey>
+        </kmi>
+    </security:essl.slot-assignment>
+  </edge-config>
+</configs>

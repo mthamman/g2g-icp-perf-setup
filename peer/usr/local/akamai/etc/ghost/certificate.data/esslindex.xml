@@ -1,0 +1,42 @@
+<configs>
+  <edge-config xmlns:akamai="uri:akamai.com/metadata/akamai/5.0" xmlns:reporting="uri:akamai.com/metadata/reporting/5.0" xmlns:network="uri:akamai.com/metadata/network/5.0" xmlns:auth="uri:akamai.com/metadata/auth/5.0" xmlns:forward="uri:akamai.com/metadata/forward/5.0" xmlns:assign="uri:akamai.com/metadata/assign/5.0" version="5.0" xmlns:security="uri:akamai.com/metadata/security/5.0" xmlns:edgeservices="uri:akamai.com/metadata/edgeservices/5.0" xmlns:match="uri:akamai.com/metadata/match/5.0" xmlns:edgecomputing="uri:akamai.com/metadata/edgecomputing/5.0" xmlns:cache="uri:akamai.com/metadata/cache/5.0" xmlns:config="uri:akamai.com/metadata/config/5.0">
+    <security:essl.slot-assignment>
+      <number>2</number>
+      <certdata>20000_2.xml</certdata>
+    </security:essl.slot-assignment>
+    <security:essl.slot-assignment>
+      <number>3</number>
+      <certdata>20000_3.xml</certdata>
+    </security:essl.slot-assignment>
+    <security:essl.slot-assignment>
+      <number>4</number>
+      <certdata>20000_4.xml</certdata>
+      <mandatory>on</mandatory>
+    </security:essl.slot-assignment>
+    <security:essl.slot-assignment>
+      <number>5</number>
+      <certdata>20000_5.xml</certdata>
+    </security:essl.slot-assignment>
+    <security:essl.slot-assignment>
+      <number>8</number>
+      <certdata>20000_8.xml</certdata>
+    </security:essl.slot-assignment>
+    <security:essl.slot-assignment>
+      <number>9</number>
+      <certdata>20000_9.xml</certdata>
+    </security:essl.slot-assignment>
+    <security:essl.slot-assignment>
+      <number>20</number>
+      <certdata>20000_20.xml</certdata>
+      <mandatory>on</mandatory>
+    </security:essl.slot-assignment>
+    <!--
+      G2G MTLS SERVER SLOT
+    -->
+    <security:essl.slot-assignment>
+      <number>21</number>
+      <certdata>20000_21.xml</certdata>
+      <mandatory>on</mandatory>
+    </security:essl.slot-assignment>
+  </edge-config>
+</configs>
